@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فروشگاه تکنوسان</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 py-6">
+
+  
+    <section
+      id="categories"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 mb-8">
+    </section>
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_230px] gap-5">
+
+      <main>
+        
+        <div class="bg-white rounded-xl p-4 mb-4 flex flex-wrap items-center gap-5 shadow-sm">
+          <span class="text-sm font-bold">مرتب سازی:</span>
+          <button class="text-xs text-gray-500 hover:text-pink-600">جدیدترین</button>
+          <button class="text-xs text-gray-500 hover:text-pink-600">پرفروش ترین</button>
+          <button class="text-xs text-gray-500 hover:text-pink-600">ارزان ترین</button>
+          <button class="text-xs text-gray-500 hover:text-pink-600">گران ترین</button>
+        </div>
+
+        
+        <div
+          id="product-list"
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        </div>
+      </main>
+      <aside class="hidden lg:block bg-white rounded-xl min-h-[600px] shadow-sm"></aside>
+
+    </div>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
